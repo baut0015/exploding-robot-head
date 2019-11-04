@@ -15,10 +15,18 @@ body {
 
 .banner {
   background-color: #2b3851;
+  min-height: 240px;
+  position: relative;
+  display: block;
+  width: 100%;
 }
 
 .robot {
   width: 320px;
+  min-height: 240px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .robot-body {
